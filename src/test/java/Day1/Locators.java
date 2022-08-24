@@ -60,6 +60,14 @@ public class Locators {
         //starts-with --> tagName[attribute^= 'value']
         //ends-with --> tagName[attribute$ = 'value']
 
+        //  xpath method child to parent--->   //a[@target = '_blank']/../../..
+        // xpath ---> //p[.='Number']/following-sibling::input
+        //xpath -----> //option[@value = 'AR']/preceding-sibling::option
+        // xpath----> //option[@contains(text(),"Please")] for Dynamic element
+        //Css cannot locate only using text
+        //Css cannot use index to locate
+        //Css cannot to go from child to parent, xpath can
+
 
 
 
