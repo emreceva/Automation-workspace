@@ -64,5 +64,9 @@ public class Practice {
         }
     }
 
-
+    @After
+    public void afterScenario(){
+        driver.quit();
+        driver.close();
+    }
 }
